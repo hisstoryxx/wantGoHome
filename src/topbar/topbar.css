@@ -25,9 +25,11 @@
 }
 
 .topLeft{
-    
+    flex:0;
     display: flex;
-    justify-content: end;
+    justify-content: start;
+    
+   
     
     
 }
