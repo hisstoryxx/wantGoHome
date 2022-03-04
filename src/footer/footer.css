@@ -5,7 +5,7 @@
     background-color: #002650;
     
     /* 메뉴바 고정 */
-    position: absolute;   
+    position: relative;   
     bottom:0;
     /* 반응형 */
     display: flex;  

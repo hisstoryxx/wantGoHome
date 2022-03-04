@@ -23,6 +23,11 @@ export default function Home() {
         
         
     </div>
+    <div className="home2">
+
+    <Posts/>
+    <Posts/>
+    </div>
 
     
     </>
