@@ -1,0 +1,20 @@
+.posts{
+    display: flex;
+    flex:5;
+    background-color: seagreen;
+
+    justify-content: center;
+    align-self: center;
+
+    
+    
+}
+
+.postsContent{
+    background-color: darkgoldenrod;
+   
+    width: 100px;
+
+    
+
+}
