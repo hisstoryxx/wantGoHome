@@ -1,6 +1,8 @@
 .sidebar{
     flex: 5;
-    background-color: sandybrown;
+    
     align-items: center;
     justify-content: center;
+
+    border-color: dodgerblue;
 }

@@ -8,7 +8,7 @@ import Logo_Design from './Logo.png'
 export default function TopBar() {
   return (
     <div className="foot">
-      FOOTER
+      <a>FOOTER</a>
      
       
       
