@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.48b9e1b0.css",
-    "main.js": "/static/js/main.3a2a20c5.js",
+    "main.js": "/static/js/main.2231d859.js",
     "static/media/jeju2021_1.JPG": "/static/media/jeju2021_1.d415ad274808367bc173.JPG",
     "static/media/bsp.jpg": "/static/media/bsp.5deef398706176fd9752.jpg",
     "static/media/kimes2018.jpg": "/static/media/kimes2018.acca5e9b2f083de5cfac.jpg",
@@ -75,10 +75,10 @@
     "static/media/Logo_White.png": "/static/media/Logo_White.8044fba2e63948b22775.png",
     "index.html": "/index.html",
     "main.48b9e1b0.css.map": "/static/css/main.48b9e1b0.css.map",
-    "main.3a2a20c5.js.map": "/static/js/main.3a2a20c5.js.map"
+    "main.2231d859.js.map": "/static/js/main.2231d859.js.map"
   },
   "entrypoints": [
     "static/css/main.48b9e1b0.css",
-    "static/js/main.3a2a20c5.js"
+    "static/js/main.2231d859.js"
   ]
 }
