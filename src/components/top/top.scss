@@ -1,3 +1,5 @@
+@import "../../general/size";
+
 .top{
     width: 100%;
    //width:100vh; 
@@ -71,6 +73,7 @@
     cursor:pointer;
     color: white;
     
+    font-family: Roboto;
    
 }
 
@@ -94,6 +97,7 @@
     background-color:  #001E42;
     align-items: center;
     width:100%;
+    
     display:flex;
     align-self: center;
   
@@ -102,111 +106,64 @@
 }
 
 
-@media screen and(max-width: 768px){
+@media (max-width: $desktop-breakpoint){
+
     .top{
-        width: 100%;
-        background-color:   #002A5C;
-        
-        position:sticky;
-        top:0;
-      
-        z-index:1000;
-        display: flex;
-      
- 
-        font-family: 'Josefin Snas', sans-serif;
-      
-    }
+    width: 100%;
+   //width:100vh; 
+   height:193px;
+    background-color:   #002A5C;
     
-    
-    
-    .topSet{
-    
-        display:flex;
-        flex-direction: column;
-        object-fit: contain;
-        width:100%;
-      
-       
-        align-items:center;
-        
-        
-      
-    
-    }
-    
-    
-    
-    .topImg{
-        width:100%;
-      
-        object-fit:contain;
-        background-color:   #002A5C;
-      //  background-color: red;
-        
-        display: flex;
- 
-        
-    }
-    
-    
-    .topList{
-        
-        display:flex;
-        width:100%;
-     
-       
-        list-style:none;
-       
-        justify-content:space-around;
-        
-       margin-right: 40px;
-    }
-    .topListItem{
-        
-        display: flex;
-        font-size:15px;
-       // width: 100%;
-        margin-right: 5px;
-        font-weight:300;
-        cursor:pointer;
-        color: white;
-        
-       
-    }
- 
-    
-    .topLeft{
-        width:100%;
-      
-        background-color:   #002A5C ;
-        
-        flex:1;
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    
-    }
-    
-    .topCenter{
-        flex:1;
-        
-        background-color:  #001E42;
-        
-        width:100%;
-        display:flex;
-       
-      
-       justify-content: space-around;
-       
-    }
-    
-    
+    position:sticky;
+    top:0;
+  
+    z-index:1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Snas', sans-serif;
+   
 }
 
-/*@media screen and(max-width:200px){
-   
 
-}*/
+
+    .topList{
+    
+        display:flex;
+        width:100%;
+        height: 30px;
+        //padding:10;
+        //margin-right:100px;
+        list-style:none;
+        justify-content: space-around;
+        //background-color: blue;
+        
+       
+    }
+
+    .topListItem{
+ 
+        font-size: $f-18;
+
+    }
+
+    
+  }
+  
+
+
+@media (max-width: $tablet-breakpoint){
+
+    
+  }
+  
+  
+@media (max-width: $mobile-breakpoint) {
+
+    .topListItem{
+ 
+        font-size: $f-14;
+
+    }
+   
+}

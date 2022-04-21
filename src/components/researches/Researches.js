@@ -10,7 +10,11 @@ export default function Researches() {
       <div className="researchesInfo">
          
           <div className="researchesLeft">
+                <div className= "titleContainer">
                 <span className="researchesTitle">Clinical Study Design</span>
+
+                </div>
+                
                 <img className="researchesImg" src={researchImg1} alt=""/>
               
          </div>

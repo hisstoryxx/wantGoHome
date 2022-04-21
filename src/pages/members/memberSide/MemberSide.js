@@ -47,6 +47,7 @@ export default function MemberSide({ select, setSelect, selectStudent, setSelect
 
   return (
     <div className="memberSide">
+      
        <div className='title_member'>
           Members
         <div className="title_border">

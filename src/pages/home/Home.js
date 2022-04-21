@@ -12,8 +12,8 @@ export default function Home(){
     return (
       
         <div className="home">
-        <Header/>
-        <Researches/>
+            <Header/>
+            <Researches/>
         
         </div>
 

@@ -1,3 +1,5 @@
+@import "../../../general/size";
+
 .memberSide{
     //background-color: skyblue;
     margin:10px;
@@ -10,13 +12,17 @@
     display:flex;
     font-size: 27px;
     opacity: 1;
-    font-weight: 1000;
+    font-weight: 900;
     flex-direction: column;
    // border-style: solid;
 
     width:208px;
    
     margin-left:51px;
+
+    font-family: Roboto;
+
+   
 }
 .title_border{
     display:flex;
@@ -61,7 +67,7 @@
     font-size:22px;
     width:208px;
     margin-bottom: 33px;
-    font-family: 'Segoe UI';
+    font-family: Roboto;
     font-weight: 700;
     opacity: 1;
     cursor:pointer;
@@ -72,6 +78,8 @@
     border-right-width:0;
     border-bottom-width:1px;
     border-color: #FFC341;
+
+
     
 }
 
@@ -85,86 +93,181 @@
     border-right-width:0;
     border-bottom-width:1px;
     border-color: #FFC341;
-    font-family: 'Segoe UI';
+    font-family: Roboto;
     opacity: 1;
     font-weight: 600;
     cursor:pointer;
 }
-@media screen and(max-width: 768px){
+// @media screen and(max-width: 768px){
+
+//     .memberSide{
+//       //  background-color: skyblue;
+       
+//         width:80%;
+//         margin-right:0;
+//         display: flex;
+//         flex-direction: column;
+        
+//     }
+    
+    
+//     .title_member{
+//         display:flex;
+//         font-size: 18px;
+//         opacity: 1;
+//         font-weight: 1000;
+//         flex-direction: column;
+//        // border-style: solid;
+    
+//         width:80%;
+       
+//         margin-left:0px;
+//     }
+//     .title_border{
+//         display:flex;
+//         width:100%;
+//     }
+//     .title_left{
+//         border-style: solid;
+//         width:48px;
+//         border-color:#002650;
+//     }
+//     .title_right{
+//          display: flex;
+//         width:48px;
+//       //  background-color: #FFC341;
+//     }
+    
+//     .memberList{
+//         display:flex;
+//         margin-left: -20px;
+      
+//     }
+//     .memberside-container{
+//         display:flex;
+//         width:10%;
+       
+//         margin-left: 0px;
+//     }
+//     .memberContent{
+        
+//         display:flex;
+//         flex-direction: column;
+       
+//         list-style: none;
+//         margin-top: 26px;
+//         margin-left: 0px;
+       
+//        // background-color: green;
+//     }
+    
+//     .memberListItem{
+        
+//         font-size:12px;
+//         width:100%;
+        
+//         margin-bottom: 17px;
+//         font-family: 'Segoe UI';
+//         font-weight: 700;
+//         opacity: 1;
+         
+//         display:flex;
+        
+//         cursor:pointer;
+//         border-style: solid;
+//         height: 46.5px;
+//         border-top-width: 0;
+//         border-left-width:0;
+//         border-right-width:0;
+//         border-bottom-width:1px;
+//         border-color: #FFC341;
+      
+//     }
+    
+//     .memberSmallItem{
+//         font-size: 10px;
+//         width:100%;
+//         margin-left: 0px;
+        
+//         margin-bottom:26px;
+//         border-style: solid;
+//         border-top-width: 0;
+//         border-left-width:0;
+//         border-right-width:0;
+//         border-bottom-width:1px;
+//         border-color: #FFC341;
+//         font-family: 'Segoe UI';
+//         opacity: 1;
+//         font-weight: 600;
+        
+//         cursor:pointer;
+//     }
+// }
+
+
+@media (max-width: $desktop-breakpoint){
 
     .memberSide{
-      //  background-color: skyblue;
-       
-        width:80%;
-        margin-right:0;
+        //background-color: skyblue;
+        margin:5px;
         display: flex;
         flex-direction: column;
-        
     }
-    
-    
+
     .title_member{
         display:flex;
-        font-size: 18px;
+        font-size: 24px;
         opacity: 1;
         font-weight: 1000;
         flex-direction: column;
        // border-style: solid;
     
-        width:80%;
+        width:198px;
        
-        margin-left:0px;
+        margin-left:51px;
+    
+        font-family: Roboto;
     }
-    .title_border{
-        display:flex;
-        width:100%;
-    }
+
     .title_left{
         border-style: solid;
-        width:48px;
+        width:80px;
         border-color:#002650;
     }
+
     .title_right{
-         display: flex;
-        width:48px;
-      //  background-color: #FFC341;
+     
+        width:80px;
+        background-color: #FFC341;
     }
-    
+
     .memberList{
         display:flex;
-        margin-left: -20px;
-      
-    }
-    .memberside-container{
-        display:flex;
-        width:10%;
-       
-        margin-left: 0px;
-    }
-    .memberContent{
+        left:0;
         
+       // background-color: pink;
+        margin-left: 10px;
+    }
+
+    .memberContent{
+    
         display:flex;
         flex-direction: column;
-       
+        
         list-style: none;
-        margin-top: 26px;
-        margin-left: 0px;
-       
+        margin-top: 41px;
+      
        // background-color: green;
     }
-    
+
     .memberListItem{
-        
-        font-size:12px;
-        width:100%;
-        
-        margin-bottom: 17px;
-        font-family: 'Segoe UI';
+    
+        font-size:20px;
+        width:168px;
+        margin-bottom: 33px;
+        font-family: Roboto;
         font-weight: 700;
         opacity: 1;
-         
-        display:flex;
-        
         cursor:pointer;
         border-style: solid;
         height: 46.5px;
@@ -173,14 +276,103 @@
         border-right-width:0;
         border-bottom-width:1px;
         border-color: #FFC341;
-      
+        
     }
+
+ 
     
-    .memberSmallItem{
-        font-size: 10px;
-        width:100%;
+    
+
+    
+  }
+
+  @media (max-width: $tablet-breakpoint){
+
+    
+    .memberSide{
+        //background-color: skyblue;
+        margin:5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title_member{
+        display:flex;
+        font-size: 18px;
+        opacity: 1;
+        font-weight: 1000;
+        flex-direction: column;
+       // border-style: solid;
+    
+        width:80px;
+       
+        margin-left: 0px;
+    
+        font-family: Roboto;
+    }
+
+    .title_left{
+        border-style: solid;
+        margin-left: 0px;
+        width:40px;
+        border-color:#002650;
+    }
+
+    .title_right{
+     
+        width:40px;
+        background-color: #FFC341;
+    }
+
+    .memberList{
+        display:flex;
         margin-left: 0px;
         
+        
+       // background-color: pink;
+        
+    }
+
+    .memberContent{
+    
+        display:flex;
+        flex-direction: column;
+        margin-left: 0px;
+        list-style: none;
+        margin-top: 21px;
+      
+       // background-color: green;
+    }
+
+    .memberListItem{
+    margin-left: -40px;
+
+     width: 80px;
+     font-size: 12px;
+     margin-bottom: 20px;
+     
+        // font-size:12px;
+        // width:40px;
+        // margin-bottom: 20px;
+        
+        font-family: Roboto;
+        font-weight: 600;
+        opacity: 1;
+        cursor:pointer;
+        border-style: solid;
+        height: 30.5px;
+        border-top-width: 0;
+        border-left-width:0;
+        border-right-width:0;
+        border-bottom-width:1px;
+        border-color: #FFC341;
+        list-style: none;
+        
+        
+    }
+    .memberSmallItem{
+        font-size: 18px;
+        margin-left: 0px;
         margin-bottom:26px;
         border-style: solid;
         border-top-width: 0;
@@ -188,10 +380,19 @@
         border-right-width:0;
         border-bottom-width:1px;
         border-color: #FFC341;
-        font-family: 'Segoe UI';
+        font-family: Roboto;
         opacity: 1;
-        font-weight: 600;
-        
+        font-weight: 500;
         cursor:pointer;
     }
+
+    
 }
+
+  
+@media (max-width: $mobile-breakpoint) {
+
+   
+   
+}
+

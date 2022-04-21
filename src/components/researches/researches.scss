@@ -72,6 +72,9 @@
     
     background-color: lightgray;
 }
+
+
+
 .researchesTitle{
     padding:17px;
     display: flex;
@@ -84,8 +87,12 @@
     font-family: 'Segoe UI', sans-serif;
     opacity: 1;
     background-color: #002a5c;
+    
     margin-bottom: 17px;
+
+    
 }
+
 
 
 @media screen and(max-width: 768px){
@@ -169,16 +176,17 @@
     display: flex;
     font-size: 22px;
     height:71px;
-   margin-top: 10px;
+    margin-top: 10px;
     margin-right:0px;
     padding:5px;
    // justify-self: start;
     color:white;
-    font-family: 'Segoe UI', sans-serif;
     opacity: 1;
     background-color: #002a5c;
 
     margin-bottom: 10px;
+
+    font-family: Roboto;
 }
 
 

@@ -29,7 +29,7 @@
     display:flex;
     justify-content: start;
     font-size: 22px;
-    font-family: 'Roboto';
+    font-family: Roboto;
     color: #002650;
     opacity: 1;
     font-weight: 1000;
@@ -71,7 +71,7 @@
    // background-color: skyblue;
     font-size:26px;
     font-weight: 700;
-    font-family: 'Roboto';
+    font-family: Roboto;
     margin-left: 10px;
     margin-bottom: 17px;
    // display: flex;
@@ -86,6 +86,7 @@
 .stu-eng{
     margin-left: 20px;
     font-size: 23px;
+    font-family: Roboto;
 }
 
 .stu-field{
@@ -116,20 +117,22 @@
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
+
+    font-family: Roboto;
 }
 
 .stu-edul1{
     margin-left: 10px;
     font-size: 20px;
     margin-bottom: 29px;
-    font-family: 'Roboto' ;
+    font-family: Roboto ;
     margin-bottom: 29px;
 }
 
 .stu-edul2{
     margin-left: 10px;
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: Roboto ;
     margin-bottom: 29px;
 }
 
@@ -141,6 +144,8 @@
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
+
+    font-family: Roboto;
 }
 
 .stu-ril{
@@ -160,6 +165,8 @@
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
+
+    font-family: Roboto;
 }
 
 .stu-contactl{

@@ -2,7 +2,7 @@
    
     display:flex;
     
-   // background-color: orange;
+    
     margin-bottom: 200px;
     width: 100%;
     
@@ -13,7 +13,7 @@
     flex:1;
     margin-top:64px;
     margin-bottom: 200px;
-   //  background-color: greenyellow;
+   
     width: 100%;
     height:100%;
   
@@ -30,44 +30,7 @@
     
 }
 
-@media screen and(max-width: 768px){
-    .members{
-   
-        display:flex;
-        
-   //     background-color: orange;
-        margin-bottom: 0px;
-        width:100%;
-        
-    }
-    
-    .membersLeft{
-        display: flex;
-        flex:1;
-     
-        margin-top:0px;
-        margin-bottom: 0px;
-        width: 80%;
-             
-      //  background-color: aqua;
-     
-     
-      
-      
-    }
-    
-    .membersRight{
-        display: flex;
-        flex:5;
-        width: 50%;
-        
-        margin-top:0px;
-     //   background-color: aqua;
-        
-    }
-   
-   
-}
+
     
     
 

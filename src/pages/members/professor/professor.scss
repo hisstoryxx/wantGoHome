@@ -1,8 +1,10 @@
+@import "../../../general/size";
+
 .professor{
     display:flex;
     flex-direction: column;
    // background-color: bisque;
-    margin-right: 319.5px;
+    margin-right: 250px;
     width:100%;
 }
 
@@ -21,10 +23,12 @@
 }
 .header-title{
     width:100%;
-   display: flex;
+    display: flex;
   
-   margin-left:50px;
-     margin-bottom: 23.5px;
+    margin-left:50px;
+    margin-bottom: 23.5px;
+
+    font-family: Roboto;
     
     }
 
@@ -52,9 +56,9 @@
     display:flex;
     width: 100%;
     justify-content: space-around;
-    font-family: 'Roboto' ;
-   margin-top: 10px;
-   margin-bottom: 10px;
+    font-family: Roboto ;
+    margin-top: 10px;
+    margin-bottom: 10px;
     cursor:pointer;
     font-weight: 1000;
   //background-color: red;
@@ -62,16 +66,17 @@
 }
 .profListItem{
     //background-color: red;
-    font-family: 'roboto' ;
+    font-family: Roboto ;
     display: flex;
 }
 
 .prof-profile{
     width: 100%;
-    margin-bottom: 53.5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     //margin-left:91px;
     display: flex;
-    //background-color: aqua;
+    
     
     justify-content: center;
     
@@ -98,15 +103,15 @@
 }
 .prof-photo{
     display: flex;
-    margin-left: 91px;
+    margin-left: 40px;
    // width:100%;
 }
 .profImg{
-    margin-top:15px;
+    margin-top:20px;
     display: flex;
     justify-self: center;
-    object-fit: cover;
-  // width:288px;
+    width:212px;
+    height: 276px;
     //height:350px;
 }
 
@@ -116,7 +121,7 @@
    // font-family: 'Segoe UI';
     opacity:1;
     font-weight: 700;
-    font-family: 'Roboto' ;
+    font-family: Roboto ;
     margin-top:15px;
     margin-bottom: 10px;
     
@@ -124,13 +129,13 @@
 }
 .prof-pos{
     font-size:23px;
-    font-family: 'Roboto' ;
+    font-family: Roboto ;
     
 }
 .prof-eng{
     margin-left: 20px;
     font-size:23px;
-    font-family: 'Roboto';
+    font-family: Roboto;
 }
 
 .prof-field{
@@ -159,7 +164,7 @@
   
     display: flex;
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: Roboto ;
     opacity:1;
     font-weight: 700;
     
@@ -168,7 +173,7 @@
     display: flex;
     margin-left: 10px;
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: Roboto ;
     opacity:1;
    
     
@@ -221,12 +226,13 @@
     color:#002650;
     opacity: 1;
     font-weight: 700;
+    font-family: Roboto;
 }
 
 .ril{
     display: flex;
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: Roboto ;
    // background-color: blue;
 }
 
@@ -296,6 +302,8 @@
     font-weight: 700;
     margin-bottom: 29px;
     margin-left:70px;
+
+    font-family: Roboto;
    
 }
 
@@ -303,7 +311,7 @@
 .mcl{
     display: flex;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: Roboto;
     margin-bottom: 29px;
     margin-left:70px;
     
@@ -329,6 +337,8 @@
     font-weight: 700;
     margin-bottom: 29px;
     margin-left:70px;
+
+    font-family: Roboto;
   
    
 }
@@ -342,7 +352,7 @@
 .ocl{
     display: flex;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: Roboto;
     margin-bottom: 29px;
     margin-left:70px;
 }
@@ -372,6 +382,8 @@
     font-weight: 700;
     margin-bottom: 29px;
     margin-left:70px;
+
+    font-family: Roboto;
 }
 
 .ecl{
@@ -381,6 +393,8 @@
     font-family: 'Segoe UI';
     margin-bottom: 29px;
     margin-left:70px;
+
+    font-family: Roboto;
 }
 
 
@@ -408,14 +422,18 @@
     font-weight: 700;
     margin-bottom: 29px;
     margin-left:70px;
+
+    font-family: Roboto;
 }
 
 .scl{ 
     display: flex;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
     margin-bottom: 29px;
     margin-left:70px;
+
+    
 }
 
 .research-subject{
@@ -442,19 +460,21 @@
     font-weight: 700;
     margin-bottom: 29px;
     margin-left:70px;
+
+    font-family: Roboto;
 }
 
 .rsl{
     display: flex;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: Roboto;
     margin-bottom: 29px;
     margin-left:70px;
 }
 .rslt{
     margin-left: 70px;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: Roboto;
     margin-bottom: 29px;
     font-weight: 700;
 }
@@ -485,12 +505,16 @@
     font-weight: 700;
     margin-bottom: 29px;
     margin-left:70px;
+
+    font-family: Roboto;
+
+
 }
 
 .recl{
     display: flex;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: Roboto;
     margin-bottom: 29px;
     margin-left:70px;
 }
@@ -521,13 +545,15 @@
     font-weight: 700;
     margin-bottom: 29px;
     margin-left:70px;
+
+    font-family: Roboto;
 }
 
 .bcl{
     font-size: 20px;
     display: flex;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: Roboto;
     margin-bottom: 29px;
     margin-left:70px;
 }
@@ -557,607 +583,1008 @@
     font-weight: 700;
     margin-bottom: 29px;
     margin-left:70px;
+
+    font-family: Roboto;
 }
 
 .icl{
     display: flex;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: Roboto;
     margin-bottom: 29px;
     margin-left:70px;
 }
 
-@media screen and(max-width: 768px){
-    .professor{
-        width:100%;
-        display:flex;
-        flex-direction: column;
-       //background-color: bisque;
-    //  background-color: red;
-        margin-right: 0px;
-    }
     
-    .prof-header{
-        
-        
-        position: sticky;
-        width:100%;
-        top:150px;    
-        z-index: 1; 
-        display: flex;
-        font-size: 15px;
-        flex-direction: column;
-        font-weight:700;
-        margin-top: 10px;
-        background-color: white;
-     //  background-color: red;
-        
-    }
-    .header-title{
-        display: flex;
-        width:100%;
-        margin-left:0px;
-        margin-bottom: 23.5px;
-    //    background-color: red;
-    }
-    
-    .prof-scrollMenu{
-        
-        
-        display: flex;
-        width:95%;
-        padding: 0px;
-        justify-content: content;
-        border-style: solid;
-        border-top-width:1px;
-        border-left-width:0px;
-        border-right-width:0px;
-        border-bottom-width:1px;
-        border-color: #707070;
-        font-family: 'Roboto' ;
-        margin-left: -10px;
-      //  background-color: red;
-     //   background-color: red;
-    }
-    .profList{
-        
-        width:100%;
-        font-size: 12px;
-        list-style: none;
-        display:flex;
-        
-       // background-color: blue;
-        
-        cursor:pointer;
-        
-    }
-    .profListItem{
-    //    background-color:green;
-      
-       margin-right: 15px;
-       text-align: center;
-        font-family: 'roboto' ;
-        display: flex;
-        width:90%;
-       
-    }
-    
-    .prof-profile{
-        width:100%;
-        margin-bottom: 53.5px;
-        margin-left:0px;
-        display: flex;
-     //   background-color: aqua;
-        padding:0px;
-        justify-content: center;
-     //   background-color: red;
-        flex-direction: column;
-    }
-    
-    .prof-summary{
-        display: flex;
-        flex-direction: column;
-      // background-color: red;
-        margin-left: 0px;
-      //  background-color: red;
-        
-       // height:301px;
-        
-        width:100%;
-        
-    }
-    .prof-photo{
-        display: flex;
-        width:80%;
-        margin-top: 10px;
-        margin-left: 20px;
-      //  background-color: red;
-    }
-    .profImg{
-        margin-top:15px;
-        display: flex;
-        justify-self: center;
-        object-fit: cover;
-        width:100%;
-       
-    }
-    
-    .research-interest{
-        display:flex;
-        flex-direction: column;
-       // background-color: blue;
-        
-    }
-   
-    .prof-name{
-        display: flex;
-        flex-direction: column;
-        font-size: 20px;
-       // font-family: 'Segoe UI';
-        opacity:1;
-        font-weight: 700;
-        font-family: 'Roboto' ;
-        margin-top:15px;
-        margin-bottom: 10px;
 
-        
-     //   background-color: pink;
-    }
-    .prof-pos{
-        display: flex;
-        font-size:18px;
-        font-family: 'Roboto' ;
-        
-    }
-    .prof-eng{
-        display: flex;
-        margin-left: 20px;
-        font-size:20px;
-        font-family: 'Roboto';
-    }
-    
-    .prof-field{
-        display: flex;
-    
-        border-style: solid;
-        border-color:#707070;
-        border-left-width: 0 ;
-        border-right-width: 0 ;
-        border-top-width: 1px;
-        border-bottom-width: 0;
-        display:flex;
-      //  background-color: green;
-        flex-direction: column;
-        padding-top: 18px;
-        
-       
-        
-    }
-    
-    .fos-container{
-        display:flex;
-        width:100%;
-        flex-direction: column;
-        margin-bottom: 10px;
-     //   background-color: red;
-    }
-    
-    .fos{
-      
-        display: flex;
-        font-size: 15px;
-        font-family: 'Roboto' ;
-        opacity:1;
-        font-weight: 700;
-        
-    }
-    .fosCont{
-        display: flex;
-        margin-left: 10px;
-        font-size: 16px;
-        font-family: 'Roboto' ;
-        opacity:1;
-       
-        
-    }
-    .email-container{
-        display:flex;
-        width:100%;
-        flex-direction: column;
-        margin-bottom: 10px;
-    }
-    
-    .prof-email{
-        
-        display: flex;
-        font-size: 16px;
-        font-family: 'Roboto' ;
-        opacity:1;
-        font-weight: 700;
-    }
-    .prof-emailCont{
-        display: flex;
-        margin-left: 10px;
-        font-size: 16px;
-        font-family: 'Roboto' ;
-        opacity:1;
-       
-    }
-    
-    
-    .tel-container{
-        display:flex;
-        width:100%;
-        flex-direction: column;
-        margin-bottom: 10px;
-    }
-    
-    .tel{
-        display: flex;
-        font-size: 16px;
-        font-family: 'Roboto' ;
-        opacity:1;
-        font-weight: 700;
-        
-    }
-    .telCont{
-        display: flex;
-        margin-left: 10px;
-        font-size: 16px;
-        font-family: 'Roboto' ;
-        opacity:1;
-    }
-    .research-interest{
-        display:flex;
-        flex-direction: column;
-       // background-color: blue;
-       width: 90%;
-       justify-content: center;
-    }
-    
-    .ri{
-        display: flex;
-        margin-top: 20px;
-        font-size: 17px;
-        color:#002650;
-        opacity: 1;
-        font-weight: 700;
-        justify-content: center;
-    }
-    
-    .ril{
-        display: flex;
-        font-size: 15px;
-        font-family: 'Roboto' ;
-        justify-content: center;
-       // background-color: blue;
-    }
-    
-    .main-career{
-        
-        margin-left:0px;
-        display: flex;
-        border-top: solid;
-        border-top-width: 1px;
-        width:100%;
-        padding:0px;
-        justify-content: space-between;
-       
-    }
-    
-    .mc-container{
-        flex-direction: column;
-        display: flex;
-        
-      
-    }
-    .bar-right{
-        
-        margin-top: 80px;
-        display: flex;
-        object-fit:cover;
-        //width:9px;
-        height:208px;
-    }
-    
-    .bar-left1{
-        
-        margin-top: 100px;
-        display: flex;
-        object-fit:cover;
-        width:9px;
-        height:208px;
-    }
-    .bar-left2{
-        
-        margin-top: 10px;
-        display: flex;
-        object-fit:cover;
-        width:9px;
-        height:208px;
-    }
-    
-    .bar-left3{
-        
-        margin-top: 60px;
-        display: flex;
-        object-fit:cover;
-        width:9px;
-        height:208px;
-    }
-    .mc{
-        display:flex;
-        margin-top: 29px;
-        font-size: 17px;
-        color:#002650;
-        opacity: 1;
-        font-weight: 700;
-        margin-bottom: 29px;
-        margin-left:0px;
-       
-    }
-    
-    
-    .mcl{
-        display: flex;
-        font-size: 15px;
-        font-family: 'Segoe UI';
-        margin-bottom: 29px;
-        margin-left:0px;
-    }
-    
-    
-    .other-career{
-        margin-left:0px;
-        display: flex;
-       
-        padding:0px;
-        //flex-direction: column;
-        
-    }
-    
-    .oc{
-        display: flex;
-       
-        font-size: 17px;
-        color:#002650;
-        opacity: 1;
-        font-weight: 700;
-        margin-bottom: 29px;
-        margin-left: 0px;
-        margin-top: 34px;
-      
-       
-    }
-    .oc-container{
-        
-        flex-direction: column;
-        display: flex;
-        
-      width: 100%;
-    }
-    .ocl{
-        display: flex;
-        font-size: 15px;
-        font-family: 'Segoe UI';
-        margin-bottom: 29px;
-        margin-left: 0px;
-    }
-    
-    .edu-career{
-        margin-left:0px;
-        display: flex;
-       
-        padding:0px;
-       
-    }
-    .edu-container{
-        flex-direction: column;
-        display: flex;
-        
-      width: 100%;
-      
-    }
-    .ec{
-        font-size: 17px;
-        color:#002650;
-        opacity: 1;
-        font-weight: 700;
-        margin-bottom: 29px;
-        margin-left: 0px;
-        margin-top: 34px;
-      
-       
-    }
-    
-    .ecl{
-        display: flex;
-        font-size: 15px;
-        font-family: 'Segoe UI';
-        margin-bottom: 29px;
-        margin-left: 0px;
-    }
-    .reward-career{
-        
-        margin-left:0px;
-        display: flex;
-       
-        padding:0px;
-     //   flex-direction: column;
-        
-    }
-    .rec-container{
-        flex-direction: column;
-        display: flex;
-        
-      width: 100%;
-    }
-    
-    .rec{
-        font-size: 17px;
-        color:#002650;
-        opacity: 1;
-        font-weight: 700;
-        margin-bottom: 29px;
-        margin-left: 0px;
-        margin-top: 34px;
-    }
-    
-    .recl{
-        font-size: 15px;
-        font-family: 'Segoe UI';
-        margin-bottom: 29px;
-        margin-left: 0px;
-    }
-    
-    
-    .scolarship-career{
-      
-        margin-left:0px;
-        display: flex;
-       
-        padding:0px;
-       // flex-direction: column;
-    
-    }
-    .sc-container{
-        flex-direction: column;
-        display: flex;
-        
-      width: 100%;
-    }
-    .sc{
-        font-size: 17px;
-        color:#002650;
-        opacity: 1;
-        font-weight: 700;
-        margin-bottom: 29px;
-        margin-left: 0px;
-        margin-top: 34px;
-    }
-    
-    .scl{ 
-        font-size: 15px;
-        font-family: 'Segoe UI';
-        margin-bottom: 29px;
-        margin-left: 0px;
-    }
+    @media (max-width: $desktop-breakpoint){
 
-    .book-career{
+        .professor{
+            display:flex;
+            flex-direction: column;
+           // background-color: bisque;
+            margin-right: 100px;
+            width:100%;
+        }
+
+        .prof-header{
+    
+            position: sticky;
+            top:150px;    
+            z-index: 1; 
+            display: flex;
+            font-size: 24px;
+            flex-direction: column;
+            font-weight:700;
+            background-color: white;
+            width:100%;
+            
+        }
         
-        margin-left:0px;
-        display: flex;
-       
-        padding:0px;
-      //  flex-direction: column;
+
+        .prof-name{
     
-    }
-    .book-container{
-        flex-direction: column;
-        display: flex;
-      width: 100%;
-    }
-    
-    
-    .bc{
-        display: flex;
-        font-size: 17px;
-        color:#002650;
-        opacity: 1;
-        font-weight: 700;
-        margin-bottom: 29px;
-        margin-left: 0px;
-        margin-top: 34px;
-        
-        
-    }
-    
-    .bcl{
-        font-size: 15px;
-        font-family: 'Segoe UI';
-        margin-bottom: 29px;
-        margin-left: 0px;
-        
-      
-    }
-       
-    .intell-career{
-        
-        margin-left:0px;
-        display: flex;
-       
-        padding:0px;
-       // flex-direction: column;
-    
-    }
-    .intell-container{
-        flex-direction: column;
-        display: flex;
-      width: 100%;
-    
-    }
-    
-    .ic{
-        font-size: 17px;
-        color:#002650;
-        opacity: 1;
-        font-weight: 700;
-        margin-bottom: 29px;
-        margin-left: 0px;
-        margin-top: 34px;
-    }
-    
-    .icl{
-        font-size: 15px;
-        font-family: 'Segoe UI';
-        margin-bottom: 29px;
-        margin-left: 0px;
-        
-    }
-    
-    .research-subject{
-        
-        
-        margin-left:0px;
-        display: flex;
-       
-        padding:0px;
-    }
-    .rs-container{
-        flex-direction: column;
-        display: flex;
-      width: 100%;
-    
-    }
-    
-    .rs{
-        display: flex;
-        font-size: 17px;
-        color:#002650;
-        opacity: 1;
-        font-weight: 700;
-        margin-bottom: 29px;
-        margin-left: 0px;
-        margin-top: 34px;
-    }
-    
-    .rsl{
-        font-size: 15px;
-        font-family: 'Segoe UI';
-        margin-bottom: 29px;
-        margin-left: 0px;
-    }
-    .rslt{
-        font-size: 15px;
-        font-family: 'Segoe UI';
-        margin-bottom: 29px;
-        margin-left: 0px;
-    }
-    
-    
-    
-    
+            font-size: 23px;
+           // font-family: 'Segoe UI';
+            opacity:1;
+            font-weight: 700;
+            font-family: Roboto ;
+            margin-top:15px;
+            margin-bottom: 10px;
+            
+         //   background-color: pink;
+        }
+
+        .prof-pos{
+            font-size:18px;
+            font-family: Roboto ;
+            
+        }
+        .prof-eng{
+            margin-left: 20px;
+            font-size:20px;
+            font-family: Roboto;
+        }
+
+        .fos{
   
- 
+            display: flex;
+            font-size: $f-16;
+            font-family: Roboto ;
+            opacity:1;
+            font-weight: 700;
+            
+        }
 
-}
+        .fosCont{
+            display: flex;
+            margin-left: 10px;
+            font-size: $f-16;
+            font-family: Roboto ;
+            opacity:1;
+           
+            
+        }
+
+        .prof-email{
+            font-size: $f-16;
+            font-family: 'Roboto' ;
+            opacity:1;
+            font-weight: 700;
+            display: flex;
+        }
+        .prof-emailCont{
+            font-size: $f-16;
+            font-family: 'Roboto' ;
+            opacity:1;
+            margin-left: 10px;
+            display: flex;
+        }
+
+        .tel{
+            display: flex;
+            font-size: $f-16;
+            font-family: 'Roboto' ;
+            opacity:1;
+            font-weight: 700;
+            
+        }
+        .telCont{
+            display: flex;
+            margin-left: 10px;
+            font-size: $f-16;
+            font-family: 'Roboto' ;
+            opacity:1;
+        }
+
+        .ri{
+            display: flex;
+            margin-top: 20px;
+            font-size: $f-16;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            font-family: Roboto;
+        }
+
+        .ril{
+            display: flex;
+            font-size: $f-16;
+            font-family: Roboto ;
+        // background-color: blue;
+        }
+
+        .mc{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-16;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+           
+        }
+        
+        
+        .mcl{
+            display: flex;
+            font-size: $f-16;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+            
+        }
+
+        .oc{
+   
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-16;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+          
+           
+        }
+
+        .ocl{
+            display: flex;
+            font-size: $f-16;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+        }
+
+        .ec{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-16;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+        }
+        
+        .ecl{
+            font-size: 20px;
+            display: flex;
+            font-size: $f-16;
+            font-family: 'Segoe UI';
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+        }
+
+        .sc{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-16;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+        }
+        
+        .scl{ 
+            display: flex;
+            font-size: $f-16;
+            font-family: 'Roboto';
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            
+        }
+
+
+        .rec{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-16;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+
+            font-family: Roboto;
+
+
+        }
+
+        .recl{
+            display: flex;
+            font-size: $f-16;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+        }
+
+        .rs{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-16;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+        }
+        
+        .rsl{
+            display: flex;
+            font-size: $f-16;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+        }
+        .rslt{
+            margin-left: 70px;
+            font-size: $f-16;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            font-weight: 700;
+        }
+
+
+        .bc{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-16;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+
+            font-family: Roboto;
+        }
+
+        .bcl{
+            font-size: 20px;
+            display: flex;
+            font-size: $f-16;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+        }
+
+
+        .ic{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-16;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+
+            font-family: Roboto;
+        }
+
+        .icl{
+            display: flex;
+            font-size: $f-16;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+        }
+        
+
+
+        
+      }
+      
+    
+    
+    @media (max-width: $tablet-breakpoint){
+
+        .profList{
+    
+            font-size: 16px;
+            list-style: none;
+            display:flex;
+            width: 100%;
+            justify-content: space-around;
+            font-family: Roboto ;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            cursor:pointer;
+            font-weight: 1000;
+          //background-color: red;
+            
+        }
+        .profListItem{
+            //background-color: red;
+            font-family: Roboto ;
+            display: flex;
+        }
+        .professor{
+            display:flex;
+            flex-direction: column;
+           // background-color: bisque;
+            margin-right: 20px;
+            width:100%;
+        }
+
+        .prof-header{
+    
+            position: sticky;
+            top:150px;    
+            z-index: 1; 
+            display: flex;
+            font-size: 22px;
+            flex-direction: column;
+            font-weight:700;
+            background-color: white;
+            width:100%;
+            
+        }
+
+        
+        
+
+        .prof-name{
+    
+            font-size: 20px;
+           // font-family: 'Segoe UI';
+            opacity:1;
+            font-weight: 700;
+            font-family: Roboto ;
+            margin-top:15px;
+            margin-bottom: 10px;
+            
+         //   background-color: pink;
+        }
+
+        .prof-pos{
+            font-size:$f-16;
+            font-family: Roboto ;
+            
+        }
+        .prof-eng{
+            margin-left: 20px;
+            font-size: $f-18;
+            font-family: Roboto;
+        }
+
+        .fos{
+  
+            display: flex;
+            font-size: $f-14;
+            font-family: Roboto ;
+            opacity:1;
+            font-weight: 700;
+            
+        }
+
+        .fosCont{
+            display: flex;
+            margin-left: 10px;
+            font-size: $f-14;
+            font-family: Roboto ;
+            opacity:1;
+           
+            
+        }
+
+        .prof-email{
+            font-size: $f-14;
+            font-family: 'Roboto' ;
+            opacity:1;
+            font-weight: 700;
+            display: flex;
+        }
+        .prof-emailCont{
+            font-size: $f-14;
+            font-family: 'Roboto' ;
+            opacity:1;
+            margin-left: 10px;
+            display: flex;
+        }
+
+        .tel{
+            display: flex;
+            font-size: $f-14;
+            font-family: 'Roboto' ;
+            opacity:1;
+            font-weight: 700;
+            
+        }
+        .telCont{
+            display: flex;
+            margin-left: 10px;
+            font-size: $f-14;
+            font-family: 'Roboto' ;
+            opacity:1;
+        }
+
+        .ri{
+            display: flex;
+            margin-top: 20px;
+            font-size: $f-14;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            font-family: Roboto;
+        }
+
+        .ril{
+            display: flex;
+            font-size: $f-14;
+            font-family: Roboto ;
+        // background-color: blue;
+        }
+
+        .mc{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-14;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+           
+        }
+        
+        
+        .mcl{
+            display: flex;
+            font-size: $f-14;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+            
+        }
+
+        .oc{
+   
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-14;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+          
+           
+        }
+
+        .ocl{
+            display: flex;
+            font-size: $f-14;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+        }
+
+        .ec{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-14;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+        }
+        
+        .ecl{
+            font-size: 20px;
+            display: flex;
+            font-size: $f-14;
+            font-family: 'Segoe UI';
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+        }
+
+        .sc{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-14;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+        }
+        
+        .scl{ 
+            display: flex;
+            font-size: $f-14;
+            font-family: 'Roboto';
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            
+        }
+
+
+        .rec{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-14;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+
+            font-family: Roboto;
+
+
+        }
+
+        .recl{
+            display: flex;
+            font-size: $f-14;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+        }
+
+        .rs{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-14;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+        }
+        
+        .rsl{
+            display: flex;
+            font-size: $f-14;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+        }
+        .rslt{
+            margin-left: 70px;
+            font-size: $f-14;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            font-weight: 700;
+        }
+
+
+        .bc{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-14;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+
+            font-family: Roboto;
+        }
+
+        .bcl{
+            font-size: 20px;
+            display: flex;
+            font-size: $f-14;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+        }
+
+
+        .ic{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-14;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+
+            font-family: Roboto;
+        }
+
+        .icl{
+            display: flex;
+            font-size: $f-14;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+        }
+        
+        .profImg{
+            margin-top:20px;
+            display: flex;
+            justify-self: center;
+            width:160px;
+            height: 229px;
+            //height:350px;
+        }
+        
+    
+        
+      }
+      
+      
+    @media (max-width: $mobile-breakpoint) {
+
+        .profList{
+    
+            font-size: $f-16;
+            
+            
+        }
+
+        .prof-header{
+    
+            position: sticky;
+            top:150px;    
+            z-index: 1; 
+            display: flex;
+            font-size: 20px;
+            flex-direction: column;
+            font-weight:700;
+            background-color: white;
+            width:100%;
+            
+        }
+
+        .professor{
+            display:flex;
+            flex-direction: column;
+           // background-color: bisque;
+            margin-right: 50px;
+            width:100%;
+        }
+        
+
+        .prof-name{
+    
+            font-size: $f-18;
+           // font-family: 'Segoe UI';
+            opacity:1;
+            font-weight: 700;
+            font-family: Roboto ;
+            margin-top:15px;
+            margin-bottom: 10px;
+            
+         //   background-color: pink;
+        }
+
+        .prof-pos{
+            font-size:$f-14;
+            font-family: Roboto ;
+            
+        }
+        .prof-eng{
+            margin-left: 20px;
+            font-size: $f-16;
+            font-family: Roboto;
+        }
+
+        .fos{
+  
+            display: flex;
+            font-size: $f-12;
+            font-family: Roboto ;
+            opacity:1;
+            font-weight: 700;
+            
+        }
+
+        .fosCont{
+            display: flex;
+            margin-left: 10px;
+            font-size: $f-12;
+            font-family: Roboto ;
+            opacity:1;
+           
+            
+        }
+
+        .prof-email{
+            font-size: $f-12;
+            font-family: 'Roboto' ;
+            opacity:1;
+            font-weight: 700;
+            display: flex;
+        }
+        .prof-emailCont{
+            font-size: $f-12;
+            font-family: 'Roboto' ;
+            opacity:1;
+            margin-left: 10px;
+            display: flex;
+        }
+
+        .tel{
+            display: flex;
+            font-size: $f-12;
+            font-family: 'Roboto' ;
+            opacity:1;
+            font-weight: 700;
+            
+        }
+        .telCont{
+            display: flex;
+            margin-left: 10px;
+            font-size: $f-12;
+            font-family: 'Roboto' ;
+            opacity:1;
+        }
+
+        .ri{
+            display: flex;
+            margin-top: 20px;
+            font-size: $f-12;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            font-family: Roboto;
+        }
+
+        .ril{
+            display: flex;
+            font-size: $f-12;
+            font-family: Roboto ;
+        // background-color: blue;
+        }
+
+        .mc{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-12;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+           
+        }
+        
+        
+        .mcl{
+            display: flex;
+            font-size: $f-12;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+            
+        }
+
+        .oc{
+   
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-12;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+          
+           
+        }
+
+        .ocl{
+            display: flex;
+            font-size: $f-12;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+        }
+
+        .ec{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-12;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+        }
+        
+        .ecl{
+            font-size: 20px;
+            display: flex;
+            font-size: $f-12;
+            font-family: 'Segoe UI';
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+        }
+
+        .sc{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-12;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+        }
+        
+        .scl{ 
+            display: flex;
+            font-size: $f-12;
+            font-family: 'Roboto';
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            
+        }
+
+
+        .rec{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-12;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+
+            font-family: Roboto;
+
+
+        }
+
+        .recl{
+            display: flex;
+            font-size: $f-12;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+        }
+
+        .rs{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-12;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+        
+            font-family: Roboto;
+        }
+        
+        .rsl{
+            display: flex;
+            font-size: $f-12;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+        }
+        .rslt{
+            margin-left: 70px;
+            font-size: $f-12;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            font-weight: 700;
+        }
+
+
+        .bc{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-12;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+
+            font-family: Roboto;
+        }
+
+        .bcl{
+            font-size: 20px;
+            display: flex;
+            font-size: $f-12;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+        }
+
+
+        .ic{
+            display:flex;
+            margin-top: 29px;
+            font-size: $f-12;
+            color:#002650;
+            opacity: 1;
+            font-weight: 700;
+            margin-bottom: 29px;
+            margin-left:70px;
+
+            font-family: Roboto;
+        }
+
+        .icl{
+            display: flex;
+            font-size: $f-12;
+            font-family: Roboto;
+            margin-bottom: 29px;
+            margin-left:70px;
+        }
+
+        .profImg{
+            margin-top:20px;
+            display: flex;
+            justify-self: center;
+            width:160px;
+            height: 220px;
+            //height:350px;
+        }
+        
+    
+       
+    }
+    
+
