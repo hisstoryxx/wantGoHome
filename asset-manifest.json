@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wantGoHome/static/css/main.ac2ec826.css",
+    "main.css": "/wantGoHome/static/css/main.fa0fd02a.css",
     "main.js": "/wantGoHome/static/js/main.82967187.js",
     "static/media/jeju2021_1.JPG": "/wantGoHome/static/media/jeju2021_1.d415ad274808367bc173.JPG",
     "static/media/bsp.jpg": "/wantGoHome/static/media/bsp.5deef398706176fd9752.jpg",
@@ -74,11 +74,11 @@
     "static/media/choro.jpg": "/wantGoHome/static/media/choro.bbefd9d8eb2bc350905d.jpg",
     "static/media/Logo_White.png": "/wantGoHome/static/media/Logo_White.8044fba2e63948b22775.png",
     "index.html": "/wantGoHome/index.html",
-    "main.ac2ec826.css.map": "/wantGoHome/static/css/main.ac2ec826.css.map",
+    "main.fa0fd02a.css.map": "/wantGoHome/static/css/main.fa0fd02a.css.map",
     "main.82967187.js.map": "/wantGoHome/static/js/main.82967187.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac2ec826.css",
+    "static/css/main.fa0fd02a.css",
     "static/js/main.82967187.js"
   ]
 }
